@@ -2,10 +2,12 @@
 layout: post
 category : Linux 
 analytics : false
-title:  Delete Github Master Branch 
+title: Delete Github Master Branch 
 tags : [git ]
 ---
 {% include JB/setup %}
+
+Original found [here](https://github.com/matthew-brett/pydagogue/blob/master/gh_delete_master.rst) 
 
 First you delete master in your local clone. To do this we first make a new branch called placeholder or similar, and delete master from there:
 
@@ -15,7 +17,7 @@ First you delete master in your local clone. To do this we first make a new bran
 
 All good so far. We next want to delete the branch on github. However, if we do this the naive way:
 
-	git push origin :master
+		git push origin :master
 
 we just get an error like this:
 
