@@ -20,4 +20,4 @@ Welcome
 </ul>
 
 ## 中文页面
-中文读者请移步[中文页面](http://statiming.github.com/)
+中文读者请移步[中文页面](http://ictime.github.com/)
