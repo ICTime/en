@@ -5,7 +5,7 @@ tagline: A Timing Engineer's Work and Imagnation
 ---
 {% include JB/setup %}
 
-Welcome 
+Welcome to ICTime  
 
 ## Update Author Attributes
 
@@ -20,4 +20,4 @@ Welcome
 </ul>
 
 ## 中文页面
-中文读者请移步[中文页面](http://ictime.github.com/)
+中文读者请移步 [中文页面](http://ictime.github.com/)
