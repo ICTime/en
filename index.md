@@ -5,11 +5,19 @@ tagline: A Timing Engineer's Work and Imagnation
 ---
 {% include JB/setup %}
 
+<!---
+-->
+<img src="http://ictime.github.com/image/local.jpg"  width="120" height="150" title="ICTimer" align="right" />
+
 Welcome to ICTime  
 
-## Update Author Attributes
+My Name is YU Bing, and I am an ASIC Physical Design Engineer at [NVIDIA](http://www.nvidia.com/page/home.html). Currently I am focusing on the Static Timing Analysis, include but not limited to constraint and timing closure of cutting edge GPU/Mobile chips.  
 
-    $ rm -rf _posts/core-samples
+I am a big believer that an engineer can always fix broken things, and develop better solutions for work or personal issues. 
+And I love the rule “Keep It Simple”. Github Pages serves me right in the geek way of blogging, documentation and scripting (Hardware engineer don’t coding)  
+
+I also send some time now and then practicing Market Timing [Wiki](http://en.wikipedia.org/wiki/Market_timing), I did profit from my speculation yet, This is just another area that I applying my academic and engineering skills. 
+
 
 ## Latest Pasts 
 
