@@ -16,7 +16,7 @@ My Name is YU Bing, and I am an ASIC Physical Design Engineer at [NVIDIA](http:/
 I am a big believer that an engineer can always fix broken things, and develop better solutions for work or personal issues. 
 And I love the rule “Keep It Simple”. Github Pages serves me right in the geek way of blogging, documentation and scripting (Hardware engineer don’t coding)  
 
-I also send some time now and then practicing Market Timing [Wiki](http://en.wikipedia.org/wiki/Market_timing), I did profit from my speculation yet, This is just another area that I applying my academic and engineering skills. 
+I also send some time now and then practicing [Market Timing](http://en.wikipedia.org/wiki/Market_timing), I did profit from my speculation yet, This is just another area that I applying my academic and engineering skills. 
 
 
 ### Latest Posts 
