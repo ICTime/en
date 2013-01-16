@@ -28,4 +28,4 @@ I also send some time now and then practicing [Market Timing](http://en.wikipedi
 </ul>
 
 ### 中文页面
-中文读者请移步 [中文页面](http://ictime.github.com/)
+中文读者请移步[中文页面](http://ictime.github.com/)
