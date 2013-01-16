@@ -19,7 +19,7 @@ And I love the rule “Keep It Simple”. Github Pages serves me right in the ge
 I also send some time now and then practicing Market Timing [Wiki](http://en.wikipedia.org/wiki/Market_timing), I did profit from my speculation yet, This is just another area that I applying my academic and engineering skills. 
 
 
-### Latest Pasts 
+### Latest Posts 
 
 <ul class="posts">
   {% for post in site.posts limit:5 %}
