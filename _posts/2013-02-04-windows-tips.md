@@ -1,9 +1,9 @@
 ---
 layout: post
-category : linux 
+category : Linus  
 analytics : false
-title:  Delete p4 Client 
-tags : [concept]
+title: Notes for computer tips 
+tags : [tips ]
 ---
 {% include JB/setup %}
 
