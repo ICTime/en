@@ -10,6 +10,7 @@ tags : [tips ]
 ## Outlook 
 + only show unread mails 	
 		read:no  in search tabs 
+
 ## Sort 
 + number sort, and reverse the order
 		sort -n -r
