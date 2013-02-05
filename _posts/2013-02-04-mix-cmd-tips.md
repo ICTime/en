@@ -37,10 +37,9 @@ tags : [tips ]
 		split -b 20m my_file prefix_
 
 ##tar
-		tar cvfz tarball.tgz  dir
-		tar xvfz tarball.tgz
-+ list the files in tar ball
-		tar tvfz tarball.tgz   
+		tar cvfz tarball.tgz  dir  --make tarball
+		tar xvfz tarball.tgz       --extract from tarball 
+		tar tvfz tarball.tgz       --list the files in tar ball
 
 ##Shell 
 		!n  	--Will execute the line n of the history record.
@@ -52,3 +51,16 @@ tags : [tips ]
 		!*      --is all the arguments
 		!vim:$  --show the last vim command filename
 
+## awk
++ General print 
+		awk '$1>200'   -- only print lines which 1st column > 200
+		awk '/Sanjay/' -- lines matching 'Sanjay'
+		awk '$4 ~/Technology/'  --4th column match 'Technology'
+		awk 'BEGIN { count=0;} $4 ~ /Technology/ { count++; } END { print "Total Number=",count;}'
++ Don't print $1/$2  
+		awk '{$1=$2=""; print }' filename
+		awk '{$1=$2=""}1' filename
+
+##Mix lines 
++ delete lines which size is 0 
+		lt | awk '{if($5==0) print $9}' | xargs -i rm {}
