@@ -7,11 +7,11 @@ tags : [tips ]
 ---
 {% include JB/setup %}
 
-## Outlook 
+##Outlook 
 + only show unread mails 	
 		read:no  in search tabs 
 
-## Sort 
+##Sort 
 + number sort, and reverse the order
 		sort -n -r
 
