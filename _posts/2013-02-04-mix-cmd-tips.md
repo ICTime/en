@@ -11,6 +11,14 @@ tags : [tips ]
 + only show unread mails 	
 		read:no  in search tabs 
 
+##Awk
+		awk '$1>200'   -- only print lines which 1st column > 200
+		awk '/Sanjay/' -- lines matching 'Sanjay'
+		awk '$4 ~/Technology/'  --4th column match 'Technology'
+		awk 'BEGIN { count=0;} $4 ~ /Technology/ { count++; } END { print "Total Number=",count;}'
+		awk '{$1=$2=""; print }' --don't print $1 $2 
+		awk '{$1=$2=""}1'        --don't print $1 $2 
+
 ##Sort 
 + number sort, and reverse the order
 		sort -n -r
@@ -23,11 +31,6 @@ tags : [tips ]
 		sort -n -k 6 -k 2 filename 
 		sort -t: -k 6 -k 2 filename 
 
-##Uniq 
-+ count summary,  repeated lines only,  uniq lines only
-		uniq -c
-		uniq -u
-		uniq -d
 ##Split 
 + This will output six 500-line chunks.
 		split -l 500 myfile
@@ -36,7 +39,7 @@ tags : [tips ]
 + split 20M file, we can use k or m, prefix_aa prefix_ab
 		split -b 20m my_file prefix_
 
-##tar
+##Tar
 		tar cvfz tarball.tgz  dir  --make tarball
 		tar xvfz tarball.tgz       --extract from tarball 
 		tar tvfz tarball.tgz       --list the files in tar ball
@@ -51,16 +54,32 @@ tags : [tips ]
 		!*      --is all the arguments
 		!vim:$  --show the last vim command filename
 
-## awk
-+ General print 
-		awk '$1>200'   -- only print lines which 1st column > 200
-		awk '/Sanjay/' -- lines matching 'Sanjay'
-		awk '$4 ~/Technology/'  --4th column match 'Technology'
-		awk 'BEGIN { count=0;} $4 ~ /Technology/ { count++; } END { print "Total Number=",count;}'
-+ Don't print $1/$2  
-		awk '{$1=$2=""; print }' filename
-		awk '{$1=$2=""}1' filename
+##Uniq 
++ count summary,  repeated lines only,  uniq lines only
+		uniq -c
+		uniq -u
+		uniq -d
 
-##Mix lines 
+##Xargs 
 + delete lines which size is 0 
 		lt | awk '{if($5==0) print $9}' | xargs -i rm {}
+
+##Mix lines 
+
++ change the timestamp 
+		touch -t YYYYMMDDHHmm filename
+		-a access -m modify
+
++ link and force link
+		ln -s     /path/to/file  filelink
+		ln -s -f /path/to/file  filelink
+
++ paste file 
+		paste -d' ' -s filename
+		paste  file1 file2
+
++ count the number
+		tr -cd '[:alpha:]' <file
+
++ find all the sub-dirs larger than 1M
+		du -h | grep "[0-9]M" | sort -rn
