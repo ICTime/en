@@ -198,7 +198,13 @@ dd > *:first-child {
 
 ul {
 	list-style-position: outside;
-	list-style-type: square;
+	list-style-type: disc;
+}
+ul ul {
+	list-style-type: circle ;
+}
+ul ul ul {
+	list-style-type: none ;
 }
 
 p + ul, p + ol {
@@ -220,11 +226,11 @@ li p, dd p {
 
 
 ol ol {
-	list-style-type: lower-alpha;
+	list-style-type: upper-alpha ;
 }
 
 ol ol ol {
-	list-style-type: lower-roman;
+	list-style-type: circle;
 }
 
 p + div.codeblock {
