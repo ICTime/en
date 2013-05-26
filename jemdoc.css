@@ -365,3 +365,9 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+/* This is the style for our default (even) row */
+tr { background-color: #FFF; }
+
+/* This is the style for our striped (odd) row */
+tbody tr:nth-child(even) { background-color: silver; }
+thead tr:nth-child(odd) { background-color: #B3BAC7; }
